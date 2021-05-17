@@ -1,9 +1,9 @@
-package com.gupaoedu.crud.daosupport;
+package cn.minalz.crud.daosupport;
 
-import com.gupaoedu.crud.bean.Employee;
-import com.gupaoedu.crud.dao.EmployeeMapper;
+import cn.minalz.crud.bean.Employee;
+import cn.minalz.crud.dao.EmployeeMapper;
 import org.springframework.stereotype.Repository;
-import java.util.ArrayList;
+
 import java.util.HashMap;
 import java.util.List;
 

@@ -1,6 +1,7 @@
-package com.gupaoedu.crud.dao;
+package cn.minalz.crud.dao;
 
-import com.gupaoedu.crud.bean.Employee;
+import cn.minalz.crud.bean.Employee;
+
 import java.util.HashMap;
 import java.util.List;
 

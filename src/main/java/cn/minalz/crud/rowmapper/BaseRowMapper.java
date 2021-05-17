@@ -1,4 +1,4 @@
-package com.gupaoedu.crud.rowmapper;
+package cn.minalz.crud.rowmapper;
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
 import java.sql.ResultSet;

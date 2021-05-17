@@ -1,4 +1,4 @@
-package com.gupaoedu.crud.bean;
+package cn.minalz.crud.bean;
 
 import java.util.HashMap;
 import java.util.Map;

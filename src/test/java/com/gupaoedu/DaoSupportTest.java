@@ -1,6 +1,6 @@
 package com.gupaoedu;
 
-import com.gupaoedu.crud.daosupport.EmployeeDaoImpl;
+import cn.minalz.crud.daosupport.EmployeeDaoImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

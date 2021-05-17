@@ -1,7 +1,7 @@
-package com.gupaoedu.crud.service;
+package cn.minalz.crud.service;
 
-import com.gupaoedu.crud.bean.Department;
-import com.gupaoedu.crud.dao.DepartmentMapper;
+import cn.minalz.crud.bean.Department;
+import cn.minalz.crud.dao.DepartmentMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
-package com.gupaoedu.crud.controller;
+package cn.minalz.crud.controller;
 
-import com.gupaoedu.crud.bean.Department;
-import com.gupaoedu.crud.bean.Msg;
-import com.gupaoedu.crud.service.DepartmentService;
+import cn.minalz.crud.bean.Department;
+import cn.minalz.crud.bean.Msg;
+import cn.minalz.crud.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

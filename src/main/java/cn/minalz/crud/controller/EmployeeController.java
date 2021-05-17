@@ -1,8 +1,8 @@
-package com.gupaoedu.crud.controller;
+package cn.minalz.crud.controller;
 
-import com.gupaoedu.crud.bean.Employee;
-import com.gupaoedu.crud.bean.Msg;
-import com.gupaoedu.crud.service.EmployeeService;
+import cn.minalz.crud.bean.Employee;
+import cn.minalz.crud.bean.Msg;
+import cn.minalz.crud.service.EmployeeService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;

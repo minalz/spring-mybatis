@@ -1,6 +1,7 @@
-package com.gupaoedu.crud.dao;
+package cn.minalz.crud.dao;
 
-import com.gupaoedu.crud.bean.Department;
+import cn.minalz.crud.bean.Department;
+
 import java.util.List;
 
 /**

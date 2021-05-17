@@ -87,7 +87,7 @@
     </bean>-->
 
     <!-- DAO层的实现类 -->
-    <bean id="employeeDao" class="com.gupaoedu.crud.daosupport.EmployeeDaoImpl">
+    <bean id="employeeDao" class="cn.minalz.crud.daosupport.EmployeeDaoImpl">
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
     </bean>
 

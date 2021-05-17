@@ -1,8 +1,7 @@
 package com.gupaoedu;
 
-import com.gupaoedu.crud.bean.Employee;
-import com.gupaoedu.crud.rowmapper.BaseRowMapper;
-import com.gupaoedu.crud.rowmapper.EmployeeRowMapper;
+import cn.minalz.crud.bean.Employee;
+import cn.minalz.crud.rowmapper.EmployeeRowMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

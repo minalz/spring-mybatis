@@ -1,4 +1,4 @@
-package com.gupaoedu.crud.daosupport;
+package cn.minalz.crud.daosupport;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.support.SqlSessionDaoSupport;

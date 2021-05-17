@@ -1,6 +1,6 @@
 package com.gupaoedu;
 
-import com.gupaoedu.crud.bean.Employee;
+import cn.minalz.crud.bean.Employee;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,6 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.UUID;
 
 /**

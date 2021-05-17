@@ -1,6 +1,6 @@
-package com.gupaoedu.crud.rowmapper;
+package cn.minalz.crud.rowmapper;
 
-import com.gupaoedu.crud.bean.Employee;
+import cn.minalz.crud.bean.Employee;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
