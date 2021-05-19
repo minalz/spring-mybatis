@@ -1,4 +1,4 @@
-package com.gupaoedu;
+package cn.minalz;
 
 import org.junit.Before;
 import org.junit.Test;

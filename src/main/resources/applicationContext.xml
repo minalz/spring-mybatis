@@ -14,7 +14,7 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
 
-    <context:component-scan base-package="com.gupaoedu.crud">
+    <context:component-scan base-package="cn.minalz.crud">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:include-filter>
     </context:component-scan>
 
@@ -74,16 +74,16 @@
 
     <!--配置扫描器，将mybatis的接口实现加入到  IOC容器中  -->
 <!--
-    <mybatis-spring:scan #base-package="com.gupaoedu.crud.dao"/>
+    <mybatis-spring:scan #base-package="cn.minalz.crud.dao"/>
 -->
     <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.gupaoedu.crud.dao"/>
+        <property name="basePackage" value="cn.minalz.crud.dao"/>
     </bean>
 
     <!-- 接口的普通注册方式 -->
 <!--
     <bean id="employeeMapper" class="org.mybatis.spring.mapper.MapperFactoryBean" autowire="byType">
-        <property name="mapperInterface" value="com.gupaoedu.crud.dao.EmployeeMapper" />
+        <property name="mapperInterface" value="cn.minalz.crud.dao.EmployeeMapper" />
     </bean>-->
 
     <!-- DAO层的实现类 -->
@@ -103,7 +103,7 @@
     </bean>
 
     <aop:config>
-        <aop:pointcut expression="execution(* com.gupaoedu.crud.service..*(..))" id="txPoint"/>
+        <aop:pointcut expression="execution(* cn.minalz.crud.service..*(..))" id="txPoint"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="txPoint"/>
     </aop:config>
     <tx:advice id="txAdvice">

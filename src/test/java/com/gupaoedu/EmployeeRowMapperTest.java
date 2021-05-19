@@ -1,4 +1,4 @@
-package com.gupaoedu;
+package cn.minalz;
 
 import cn.minalz.crud.bean.Employee;
 import cn.minalz.crud.rowmapper.EmployeeRowMapper;

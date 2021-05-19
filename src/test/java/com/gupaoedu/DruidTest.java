@@ -1,4 +1,4 @@
-package com.gupaoedu;
+package cn.minalz;
 
 import com.alibaba.druid.filter.config.ConfigTools;
 

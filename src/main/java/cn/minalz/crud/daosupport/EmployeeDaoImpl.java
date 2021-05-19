@@ -20,7 +20,7 @@ public class EmployeeDaoImpl extends BaseDao implements EmployeeMapper {
      */
     @Override
     public Employee selectByPrimaryKey(Integer empId) {
-        Employee emp = (Employee) this.selectOne("com.gupaoedu.crud.dao.EmployeeMapper.selectByPrimaryKey",empId);
+        Employee emp = (Employee) this.selectOne("cn.minalz.crud.dao.EmployeeMapper.selectByPrimaryKey",empId);
         return emp;
     }
 

@@ -234,7 +234,7 @@
     </select>
 
 <!--
-    <select id="getEmpList_bind" resultType="empResultMap" parameterType="com.gupaoedu.crud.bean.Employee">
+    <select id="getEmpList_bind" resultType="empResultMap" parameterType="cn.minalz.crud.bean.Employee">
         <bind name="pattern1" value="'%' + empName + '%'" />
         <bind name="pattern2" value="'%' + email + '%'" />
         SELECT * FROM tbl_emp

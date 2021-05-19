@@ -1,4 +1,4 @@
-package com.gupaoedu;
+package cn.minalz;
 
 import cn.minalz.crud.daosupport.EmployeeDaoImpl;
 import org.junit.Test;

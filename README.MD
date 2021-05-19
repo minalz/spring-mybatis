@@ -10,7 +10,7 @@
 
 使用说明：
 
-　　测试类主要在 test/java/com.gupaoedu.com中。
+　　测试类主要在 test/java/cn.minalz.com中。
 
 　　需要部署到tomcat中启动，访问：
     http://localhost:8080/spring_mybatis_war/emp/1

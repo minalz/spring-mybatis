@@ -19,9 +19,9 @@
 
     <!-- 类型别名 -->
 <!--    <typeAliases>
-        <package name="com.gupaoedu.crud.bean"/>
+        <package name="cn.minalz.crud.bean"/>
 &lt;!&ndash;
-        <typeAlias alias="Department" type="com.gupaoedu.crud.bean.Department" />
+        <typeAlias alias="Department" type="cn.minalz.crud.bean.Department" />
 &ndash;&gt;
     </typeAliases>-->
 
